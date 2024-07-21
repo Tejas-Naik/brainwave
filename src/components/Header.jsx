@@ -32,7 +32,7 @@ const Header = () => {
   return (
     <div
       className={`fixed top-0 left-0 w-full z-50  border-b border-n-6 lg:bg-n-8/90 lg:backdrop-blur-sm ${
-        openNavigation ? "bg-n-8" : "bg-n-8/90"
+        openNavigation ? "bg-n-8" : "bg-n-8/90 backdrop-blur-sm"
       }`}
     >
       <div className="flex items-center px-5 lg:px-7.5 xl:px-10 max-lg:py-4">
@@ -69,13 +69,14 @@ const Header = () => {
 
         <a
           href="#signup"
-          className="button hidden mr-8 text-n-1/50 transition-colors hover:text-color-1 lg:block"
+          className="button hidden mr-8 text-n-1/50 transition-colors hover:text-n-1 lg:block"
         >
-          New Account
+          New account
         </a>
         <Button className="hidden lg:flex" href="#login">
           Sign in
         </Button>
+
         <Button
           className="ml-auto lg:hidden"
           px="px-3"

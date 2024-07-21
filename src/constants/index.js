@@ -78,8 +78,8 @@ export const notificationImages = [notification4, notification3, notification2];
 export const companyLogos = [yourlogo, yourlogo, yourlogo, yourlogo, yourlogo];
 
 export const brainwaveServices = [
-  "Photo generating",
-  "Photo enhance",
+  "E-commerce Platforms",
+  "SEO Optimization",
   "Seamless Integration",
 ];
 
@@ -138,11 +138,11 @@ export const collabContent = [
   },
   {
     id: "1",
-    title: "Smart Automation",
+    title: "check E-commerce Solutions",
   },
   {
     id: "2",
-    title: "Top-notch Security",
+    title: "check SEO Services",
   },
 ];
 
@@ -209,19 +209,19 @@ export const pricing = [
   {
     id: "0",
     title: "Basic",
-    description: "AI chatbot, personalized recommendations",
-    price: "0",
+    description: "Static websites for your startups",
+    price: "100",
     features: [
-      "An AI chatbot that can understand your queries",
-      "Personalized recommendations based on your preferences",
+      "Custom designed landing pages for your business",
+      "Best way to show your online presence, get more customers automatically",
       "Ability to explore the app and its features without any cost",
     ],
   },
   {
     id: "1",
     title: "Premium",
-    description: "Advanced AI chatbot, priority support, analytics dashboard",
-    price: "9.99",
+    description: "Backend Apps for your businesses",
+    price: "499",
     features: [
       "An advanced AI chatbot that can understand complex queries",
       "An analytics dashboard to track your conversations",
@@ -231,7 +231,7 @@ export const pricing = [
   {
     id: "2",
     title: "Enterprise",
-    description: "Custom AI chatbot, advanced analytics, dedicated account",
+    description: "E-commerce site tailored to your business",
     price: null,
     features: [
       "An AI chatbot that can understand your queries",
@@ -245,42 +245,42 @@ export const benefits = [
   {
     id: "0",
     title: "Ask anything",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
-    backgroundUrl: "assets/benefits/card-1.svg",
+    text: "Let our experts answer your web development queries and provide the best solutions.",
+    backgroundUrl: "./src/assets/benefits/card-1.svg",
     iconUrl: benefitIcon1,
     imageUrl: benefitImage2,
   },
   {
     id: "1",
-    title: "Improve everyday",
-    text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
-    backgroundUrl: "assets/benefits/card-2.svg",
+    title: "Custom Web Design",
+    text: "Our team ensures seamless integration of all functionalities for a smooth user experience.",
+    backgroundUrl: "./src/assets/benefits/card-2.svg",
     iconUrl: benefitIcon2,
     imageUrl: benefitImage2,
     light: true,
   },
   {
     id: "2",
-    title: "Connect everywhere",
-    text: "Connect with the AI chatbot from anywhere, on any device, making it more accessible and convenient.",
-    backgroundUrl: "assets/benefits/card-3.svg",
+    title: "Seamless Integration",
+    text: "Get your business online with a responsive and user-friendly e-commerce platform.",
+    backgroundUrl: "./src/assets/benefits/card-3.svg",
     iconUrl: benefitIcon3,
     imageUrl: benefitImage2,
   },
   {
     id: "3",
-    title: "Fast responding",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
-    backgroundUrl: "assets/benefits/card-4.svg",
+    title: "SEO Optimization",
+    text: "We build fast and secure websites to enhance user experience and security.",
+    backgroundUrl: "./src/assets/benefits/card-4.svg",
     iconUrl: benefitIcon4,
     imageUrl: benefitImage2,
     light: true,
   },
   {
     id: "4",
-    title: "Ask anything",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
-    backgroundUrl: "assets/benefits/card-5.svg",
+    title: "Content Management Systems",
+    text: "From simple websites to complex web applications, we handle it all.",
+    backgroundUrl: "./src/assets/benefits/card-5.svg",
     iconUrl: benefitIcon1,
     imageUrl: benefitImage2,
   },
@@ -288,7 +288,7 @@ export const benefits = [
     id: "5",
     title: "Improve everyday",
     text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
-    backgroundUrl: "assets/benefits/card-6.svg",
+    backgroundUrl: "./src/assets/benefits/card-6.svg",
     iconUrl: benefitIcon2,
     imageUrl: benefitImage2,
   },
